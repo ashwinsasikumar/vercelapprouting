@@ -1,6 +1,6 @@
 import Link from "next/link";
-import './globals.css'
-import './page.css'
+import "./globals.css";
+import "./page.css";
 
 export default function Home() {
   return (
@@ -9,7 +9,9 @@ export default function Home() {
         <h1 className="Appname">VERCEL AI</h1>
         <ul>
           <li>
-            <Link href="/generate_text">GENERATE TEXT</Link>
+            <Link href="/generate_text" onclick="location.reload()">
+              GENERATE TEXT
+            </Link>
           </li>
           <li>
             <Link href="/stream_text">STREAM TEXT</Link>

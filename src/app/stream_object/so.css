@@ -1,98 +1,110 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-
+.home-btn {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background-color: #a30000;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
 body {
-    font-family: 'Arial', sans-serif;
-    background-color: #fff5f5;
-    color: #4c0000;
-    line-height: 1.6;
-    margin: 0;
-    padding: 0;
+  font-family: "Arial", sans-serif;
+  background-color: #fff5f5;
+  color: #4c0000;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
 }
 div.container {
-    padding: 20px;
-    max-width: 600px;
-    margin-top: 180px;
-    margin-left: 389px;
-    background-color: #ffebeb;
-    border: 1px solid #ffcccc;
-    border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  max-width: 600px;
+  margin-top: 180px;
+  margin-left: 389px;
+  background-color: #ffebeb;
+  border: 1px solid #ffcccc;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 h1 {
-    font-size: 1.8rem;
-    color: #a30000;
-    margin-bottom: 20px;
-    text-align: left;
-    position: absolute;
-    top: 20px;
-    left: 20px;
+  font-size: 1.8rem;
+  color: #a30000;
+  margin-bottom: 20px;
+  text-align: left;
+  position: absolute;
+  top: 20px;
+  left: 20px;
 }
 input {
-    width: calc(100% - 120px);
-    padding: 10px;
-    font-size: 16px;
-    border: 1px solid #ff9999;
-    border-radius: 4px;
-    margin-bottom: 10px;
-    outline: none;
-    transition: border-color 0.3s;
+  width: calc(100% - 120px);
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ff9999;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  outline: none;
+  transition: border-color 0.3s;
 }
 
 input:focus {
-    border-color: #cc0000;
+  border-color: #cc0000;
 }
 button {
-    background-color: #cc0000;
-    color: #fff;
-    padding: 10px 15px;
-    font-size: 16px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    transition: background-color 0.3s;
+  background-color: #cc0000;
+  color: #fff;
+  padding: 10px 15px;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
 }
 
 button:disabled {
-    background-color: #b93030;
-    cursor: not-allowed;
+  background-color: #b93030;
+  cursor: not-allowed;
 }
 
 button:hover:not(:disabled) {
-    background-color: #990000;
+  background-color: #990000;
 }
 p {
-    margin-top: 10px;
+  margin-top: 10px;
 }
 
 p.error {
-    color: #d40000;
+  color: #d40000;
 }
 
 p.loading {
-    color: #cc0000;
+  color: #cc0000;
 }
 div.chat-container {
-    margin-top: 20px;
+  margin-top: 20px;
 }
 
 div.chat-container h2 {
-    color: #a30000;
+  color: #a30000;
 }
 
 div.chat-container p {
-    color: #4c0000;
+  color: #4c0000;
 }
 @media (max-width: 600px) {
-    input {
-        width: 100%;
-        margin-bottom: 10px;
-    }
+  input {
+    width: 100%;
+    margin-bottom: 10px;
+  }
 
-    button {
-        width: 100%;
-    }
+  button {
+    width: 100%;
+  }
 }
